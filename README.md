@@ -1,3 +1,4 @@
+![Outcomes_vs_Goals_with_Histogram](https://user-images.githubusercontent.com/60558885/110157464-32848e80-7db6-11eb-9643-acdf1766eb06.png)
 # Kickstarting with Excel
 
 ## Overview of Project
