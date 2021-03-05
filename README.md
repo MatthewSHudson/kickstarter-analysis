@@ -1,4 +1,4 @@
-![Outcomes_vs_Goals_with_Histogram](https://user-images.githubusercontent.com/60558885/110157464-32848e80-7db6-11eb-9643-acdf1766eb06.png)
+
 # Kickstarting with Excel
 
 ## Overview of Project
@@ -21,9 +21,13 @@
 
 ### Results of Outcomes Based On Launch Date
 From the below chart and by quickly calculating the mean and standard deviation of the number of successful and failed campaigns. We can conclude that May is an exceptionally good month to start a kickstarter campaign if one wants it to succeed. While may is the peak month for both successful and failed campaigns we note that the number of successful campaigns falls outside of the interval of 2 standard deviations of the mean of successes while the number of failed campaigns falls within 2 standard deviations of the mean of failures. This can be interpreted as the peak in successes being more significant than the peak in failures. Additionally we can see that October is likely the worst month to start a kickstarter campaign since it has the second highest number of failed campaigns (50) while also having a below average number of successful campaigns. While November and December may seem worse one can note that in these months both successes and failures are below average, meaning there are fewer campaigns overall in these months
-
+![Pivot_Table](https://user-images.githubusercontent.com/60558885/110158234-1cc39900-7db7-11eb-980f-7600550064e3.png)
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/60558885/110157608-61026980-7db6-11eb-91e6-02499b67db7a.png)
 ### Results of Outcomes Based on Goals
 From the included chart we can see that generally smaller campaign goals translate to better odds of a successful campaign. This makes sense intuitively as well as smaller goals would require fewer backers, smaller pledges, or both. The percentage of successful campaigns is first overtaken by the percentage of failed campaigns at $15,000-$19,9999. So, in order to maximize the odds of having a successful campaign it would be better to keep the goal under $15,000, remembering that even smaller goals have better rates of success. 
-
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/60558885/110157598-5ea00f80-7db6-11eb-832e-9a8e94907587.png)
 ### Limitations of the Dataset
 One important limitation of this dataset that actually impacts the accuracy of the Outcomes Based on Goals chart is that there are very few campaigns in the plays subcategory with goals over $25,000. For example, there is only one play campaign in the 45,000. This play is a failure so the chart shows %100 failure rate for this bucket, however, if this one campaign had succeeded then we would have a %100 success rate which would almost make it seem as if some larger goals ($35,000-$49,999) had very high rates of sucess; in reality its hard to say with so few datapoints if these campaigns would be successful due to their high goal amounts or if these campaigns which had high goal amounts just happened to be the successful ones. This problem could be addressed by adding a histogram to show the distribution of data which, when placed below the Outcomes Based on Goals chart, does indeed show how few data points there are at the upper end of the axis.
+![Outcomes_vs_Goals_with_Histogram](https://user-images.githubusercontent.com/60558885/110157464-32848e80-7db6-11eb-9643-acdf1766eb06.png)
+
+
